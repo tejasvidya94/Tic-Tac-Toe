@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #44d5c7;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(109, 99, 135, 0.518);
+  font-size: 7vmin;
+  color: #f24236;
+  background-color: #f49d40;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#resetBtn {
+  padding: 1rem;
+  font-size: 1.45rem;
+  background-color: #f1f36a;
+  border: none;
+  margin-top: 1rem; /* Add margin to the reset button if desired */
+}
+
+#newgameBtn {
+  display: block;
+  padding: 1rem;
+  font-size: 1.45rem;
+  background-color: #f1f36a;
+  border: none;
+  margin-top: 2rem;
+}
+
+#resetBtn:hover,
+#newgameBtn:hover {
+  background-color: #ffff43;
+}
+
+#msg {
+  font-family: "Lucida Sans";
+  color: #122cbe;
+  font-size: 7vmin;
+}
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#newgameBtn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hiding the msg-container. */
+.hide {
+  display: none;
+}
